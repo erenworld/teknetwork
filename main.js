@@ -28,12 +28,12 @@ async function loadStudents() {
   const container = document.getElementById("students");
 
   container.innerHTML = students.map((student) => {
-    return `<div class=" bg-[#1E2836] p-9 py-5 px-4 rounded-lg">
+    return `<div class=" bg-[#1E2836] p-9 py-5 px-4 rounded-lg border border-[#374151]">
             <div class="flex items-center justify-between text-white">
-            <p>${student.name}</p>
+            <p class="pb-2">${student.name}</p>
             <span>${student.year}</span>
             </div>
-            <a href="https://${student.website}" class="text-blue-300 hover:underline">${student.website}</a>
+            <a href="https://${student.domain}" class="text-blue-300 hover:underline">${student.website}</a>
             </div>`
     }).join("");
   }

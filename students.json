@@ -2,17 +2,17 @@
     {
       "name": "Eren Turkoglu",
       "year": "2029",
-      "website": "eren.com"
+      "domain": "eren.com"
     },
     {
       "name": "Alice Dupont",
       "year": "2028",
-      "website": "alice.dev"
+      "domain": "alice.dev"
     },
     {
-        "name": "Tomas Dupont",
-        "year": "2028",
-        "website": "alice.dev"
+      "name": "Tomas Dupont",
+      "year": "2028",
+      "domain": "alice.dev"
     }
   ]
   
