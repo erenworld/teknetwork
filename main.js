@@ -33,7 +33,7 @@ async function loadStudents() {
             <p class="pb-2">${student.name}</p>
             <span>${student.year}</span>
             </div>
-            <a href="https://${student.domain}" class="text-blue-300 hover:underline">${student.website}</a>
+            <a href="https://${student.domain}" target="_blank" class="text-blue-300 hover:underline">${student.domain}</a>
             </div>`
     }).join("");
   }

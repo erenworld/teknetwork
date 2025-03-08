@@ -2,17 +2,67 @@
     {
       "name": "Eren Turkoglu",
       "year": "2029",
-      "domain": "eren.com"
+      "domain": "erenworld.github.io"
     },
     {
-      "name": "Alice Dupont",
-      "year": "2028",
-      "domain": "alice.dev"
+      "name": "Romain Selva",
+      "year": "2012",
+      "domain": "romainselva.com"
     },
     {
-      "name": "Tomas Dupont",
+        "name": "Thomas Berlioz",
+        "year": "2024",
+        "domain": "thomasberlioz.fr"
+    },
+    {
+        "name": "Alexandre Garbe",
+        "year": "2028",
+        "domain": "alexandregarbe.com"
+    },
+    {
+      "name": "Romain Roger",
       "year": "2028",
-      "domain": "alice.dev"
+      "domain": "romainroger.vercel.app"
+    },
+    {
+        "name": "Thomas Maingre",
+        "year": "2022",
+        "domain": "thomasmaingre.com"
+    },
+    {
+        "name": "Alexandre Garbe",
+        "year": "2028",
+        "domain": "alexandregarbe.com"
+    },
+    {
+        "name": "Thomas Grangeon",
+        "year": "2022",
+        "domain": "thomasgrangeon.com"
+    },
+    {
+        "name": "Lucas Compte",
+        "year": "2022",
+        "domain": "lucascomte.com"
+    },
+    {
+        "name": "Victor Zhang",
+        "year": "2025",
+        "domain": "victor-zhang.fr"
+    },
+    {
+        "name": "Eren Varli",
+        "year": "2027",
+        "domain": "evarli.com"
+    },
+    {
+        "name": "Clément Guichard",
+        "year": "2024",
+        "domain": "guich.xyz"
+    },
+    {
+        "name": "Alexandre Sparton",
+        "year": "2025",
+        "domain": "asparton.com"
     }
   ]
   
