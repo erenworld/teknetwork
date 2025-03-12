@@ -5,24 +5,14 @@
       "domain": "erenworld.github.io"
     },
     {
-      "name": "Romain Selva",
-      "year": "2012",
-      "domain": "romainselva.com"
-    },
-    {
         "name": "Thomas Berlioz",
         "year": "2024",
         "domain": "thomasberlioz.fr"
     },
     {
-        "name": "Alexandre Garbe",
+        "name": "Romain Roger",
         "year": "2028",
-        "domain": "alexandregarbe.com"
-    },
-    {
-      "name": "Romain Roger",
-      "year": "2028",
-      "domain": "romainroger.vercel.app"
+        "domain": "romainroger.vercel.app"
     },
     {
         "name": "Thomas Maingre",
@@ -30,9 +20,19 @@
         "domain": "thomasmaingre.com"
     },
     {
+        "name": "Victor Zhang",
+        "year": "2025",
+        "domain": "victor-zhang.fr"
+    },
+    {
         "name": "Alexandre Garbe",
         "year": "2028",
         "domain": "alexandregarbe.com"
+    },
+    {
+      "name": "Romain Selva",
+      "year": "2012",
+      "domain": "romainselva.com"
     },
     {
         "name": "Thomas Grangeon",
@@ -40,14 +40,14 @@
         "domain": "thomasgrangeon.com"
     },
     {
-        "name": "Lucas Compte",
+        "name": "Lucas Comte",
         "year": "2022",
         "domain": "lucascomte.com"
     },
     {
-        "name": "Victor Zhang",
-        "year": "2025",
-        "domain": "victor-zhang.fr"
+        "name": "Alexandre Garbe",
+        "year": "2028",
+        "domain": "alexandregarbe.com"
     },
     {
         "name": "Eren Varli",

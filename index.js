@@ -2,7 +2,7 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <div class="mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
+    <div class="mx-auto py-10 px-4 sm:px-6 md:px-8 lg:px-10">
       <header class="pt-10 pb-5 text-center">
         <div class="flex flex-col items-center">
           <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent">
@@ -23,7 +23,7 @@ document.querySelector('#app').innerHTML = `
 `
 
 async function loadStudents() {
-  const response = await fetch("students.json");
+  const response = await fetch("/students.json");
   const students = await response.json();
   const container = document.getElementById("students");
 
