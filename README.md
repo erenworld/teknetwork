@@ -1,4 +1,4 @@
-# Teknetwork ⚡🦅
+# Teknetwork ⚡
 
 Inspired by [se-webring.xyz](https://se-webring.xyz).
 
