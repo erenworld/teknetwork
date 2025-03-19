@@ -65,6 +65,11 @@
         "domain": "guich.xyz"
     },
     {
+        "name": "Théo Promis",
+        "year": "2024",
+        "domain": "theopomies.com"
+    },
+    {
         "name": "Alexandre Sparton",
         "year": "2025",
         "domain": "asparton.com"
@@ -73,6 +78,21 @@
         "name": "Louis Garret",
         "year": "2022",
         "domain": "garret.ovh"
+    },
+    {
+        "name": "Matthieu Gabas",
+        "year": "2023",
+        "domain": "matthieu-gabas.ovh"
+    },
+    {
+        "name": "Théo Grosjean",
+        "year": "2024",
+        "domain": "theogrosjean.vercel.app"
+    },
+    {
+        "name": "Ethan Selleron",
+        "year": "2023",
+        "domain": "ethanselleron.com"
     }
   ]
   
