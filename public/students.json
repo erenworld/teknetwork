@@ -50,6 +50,11 @@
         "domain": "alexandregarbe.com"
     },
     {
+        "name": "Louis Langanay",
+        "year": "2027",
+        "domain": "louisl.me/"
+    },
+    {
         "name": "Eren Varli",
         "year": "2027",
         "domain": "evarli.com"
@@ -63,6 +68,11 @@
         "name": "Alexandre Sparton",
         "year": "2025",
         "domain": "asparton.com"
+    },
+    {
+        "name": "Louis Garret",
+        "year": "2022",
+        "domain": "garret.ovh"
     }
   ]
   
