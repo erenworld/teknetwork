@@ -12,7 +12,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </header>
       <section class="flex items-center justify-center w-full">
-        <input type="text" class="sticky bg-[#1E2836] text-white h-11 w-full max-w-md sm:max-w-lg md:max-w-xl rounded-lg placeholder-gray-500 border border-[#374151] focus:border-sky-600 focus:outline-none px-3" placeholder="Search by name, website or graduation year...">
+        <input type="text" class="input sticky bg-[#1E2836] text-white h-11 w-full max-w-md sm:max-w-lg md:max-w-xl rounded-lg placeholder-gray-500 border border-[#374151] focus:border-sky-600 focus:outline-none px-3" placeholder="Search by name, website or graduation year...">
       </section>
    
       <section id="students" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-16 w-full max-w-4xl mx-auto"> </section>
@@ -22,26 +22,45 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-const btnSubmit = document.querySelector(".btnSubmit");
-
-btnSubmit.addEventListener("click", () => {
-  alert("hi");
-})
+const input = document.querySelector(".input");
+const container = document.getElementById("students");
+let students = [];
 
 async function loadStudents() {
   const response = await fetch("/students.json");
-  const students = await response.json();
-  const container = document.getElementById("students");
+  students = await response.json();
+  displayStudents(students);
+}
 
-  container.innerHTML = students.map((student) => {
-    return `<div class=" bg-[#1E2836] p-9 py-5 px-4 rounded-lg border border-[#374151]">
-            <div class="flex items-center justify-between text-white">
-            <p class="pb-2">${student.name}</p>
+function displayStudents(filteredStudents) {
+  container.innerHTML = filteredStudents.map((student) => {
+    const query = input.value.trim().toLowerCase();
+    const name = student.name;
+    const highlightedName = query && name.toLowerCase().includes(query) 
+    ? name.replace(new RegExp(`(${query})`, "gi"), '<span class="highlight">$1</span>')
+    : name;
+
+    return `
+    <div class="bg-[#1E2836] p-9 py-5 px-4 rounded-lg border border-[#374151]">
+        <div class="flex items-center justify-between text-white">
+            <p class="pb-2">${highlightedName}</p>
             <span>${student.year}</span>
-            </div>
-            <a href="https://${student.domain}" target="_blank" class="text-blue-300 hover:underline">${student.domain}</a>
-            </div>`
-    }).join("");
-  }
+        </div>
+        <a href="https://${student.domain}" target="_blank" class="text-blue-300 hover:underline">${student.domain}</a>
+    </div>
+    `
+  }).join("");
+}
+
+input.addEventListener("input", () => {
+  const query = input.value.trim().toLowerCase();
+  const filteredStudents = students.filter((student) => 
+    student.name.toLowerCase().includes(query) || 
+    student.domain.toLowerCase().includes(query) ||
+    student.year.toString().includes(query)
+  );
+  displayStudents(filteredStudents);
+})
 
 loadStudents();
+
