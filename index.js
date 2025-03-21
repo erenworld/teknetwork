@@ -24,7 +24,13 @@ document.querySelector('#app').innerHTML = `
 
 const input = document.querySelector(".input");
 const container = document.getElementById("students");
+const btnSubmit = document.querySelector(".btnSubmit");
 let students = [];
+
+btnSubmit.addEventListener("click", () => {
+  const url = "https://github.com/erenworld/teknetwork";
+  window.open(url, "_blank")
+})
 
 async function loadStudents() {
   const response = await fetch("/students.json");
