@@ -50,6 +50,11 @@
         "domain": "alexandregarbe.com"
     },
     {
+        "name": "Léa Ballester",
+        "year": "2026",
+        "domain": "leaballester.com"
+    },
+    {
         "name": "Louis Langanay",
         "year": "2027",
         "domain": "louisl.me/"
@@ -68,6 +73,11 @@
         "name": "Théo Promis",
         "year": "2024",
         "domain": "theopomies.com"
+    },
+    {
+        "name": "Léo Antoine",
+        "year": "2020",
+        "domain": "leo-antoine.com"
     },
     {
         "name": "Alexandre Sparton",
@@ -93,6 +103,11 @@
         "name": "Ethan Selleron",
         "year": "2023",
         "domain": "ethanselleron.com"
+    },
+    {
+        "name": "Léo Filmon",
+        "year": "2027",
+        "domain": "leofilmon.fr"
     }
   ]
   
