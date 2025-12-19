@@ -1,1 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
 @import "tailwindcss";
+
+.font-sekuya {
+  font-family: "Sekuya", system-ui;
+}
