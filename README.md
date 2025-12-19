@@ -1,4 +1,4 @@
 # teknetwork
 A webring for cs students at Epitech
 
-[epitech](screen.png)
+![epitech](public/screen.png)
